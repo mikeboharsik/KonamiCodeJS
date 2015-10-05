@@ -35,7 +35,7 @@ function konamiCodeJS_konamiLogic( key )
 		}
 	}
 	
-	if ( valid && konamiCodeJS_keyPresses.length == konamiCodeJS_target.length ) // this code executes when the 
+	if ( valid && konamiCodeJS_keyPresses.length == konamiCodeJS_target.length ) // this code executes when the code is successfully entered 
 	{
 		konamiCodeJS_success();
 		konamiCodeJS_keyPresses = []; // clear the stored keypresses once the code has been successfully entered
